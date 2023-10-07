@@ -1,0 +1,52 @@
+body {
+    margin: 0; 
+    overflow: hidden;
+    background: url('../img/background.jpg')
+}
+
+.cartao-visita {
+    max-width: 468px;
+    width: 100%;
+    margin: 80px auto;
+    background: #f4f4f4;
+    padding: 45px;
+    border-top: 6px solid #6bb4f0;
+    border-radius: 50px;
+  }
+
+  #imagem {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .imagem-perfil{
+    width: 100%;
+  border-radius: 100%;
+  }
+
+  .descricao{
+    text-align: center;
+  }
+  
+  .contato {
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background: #6bb4f0;
+    color:#fff;
+  }
+  
+  .rodape {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .icone-rodape {
+    color:#333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .titulo-cor{
+    color: #6bb4f0;
+  }

@@ -1,0 +1,60 @@
+input, button, body {
+    font-size: 25px;
+}
+
+input{
+    color: rgb(197, 150, 241);;
+}
+
+.add-item {
+    text-align: center;
+    background-size: cover;
+    /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+    background-position: center;
+    /* Centraliza a imagem */
+}
+
+#label-item-adicionar {
+    color: blueviolet;
+}
+
+#item-adicionar {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: rgb(181, 117, 242);
+    width: 500px;
+    height: 30px;
+}
+
+#item-adicionar::placeholder {
+    color: rgb(221, 194, 247);
+}
+
+#adicionar-item,
+#limpar-itens,
+#deletar,
+#finalizar {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: blueviolet;
+    background-color: rgb(197, 150, 241);
+    color: white;    
+}
+
+#lista-item {
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+li {
+    list-style-type: none;
+    color: blueviolet;
+}

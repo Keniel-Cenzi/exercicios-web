@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+}
+
+#calculadora {
+    width: 300px;
+    height: 500px;
+    border: 2px solid white;
+    position: relative;
+    color: white;
+    font-size: 40px;
+}
+
+#painel-operacoes {
+    height: 100px;
+    width: 280px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botoes {
+    display: block;    
+    height: 360px;
+    width: 280px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#zero-virgula,
+#sete-nove,
+#quatro-seis,
+#um-tres,
+#clear {
+    width: 230px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#zero-virgula {
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sete-nove {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#quatro-seis {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#um-tres {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#clear {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-color: black;
+}
+
+#zero {
+    width: 109px;
+    border-radius: 40%;
+}
+
+#clean {
+    width: 170px;
+    border-radius: 40%;
+    background-color: rgb(235, 235, 235);
+}
+
+#multiplica,
+#subtrai,
+#divide,
+#soma,
+#igual {
+    background-color: orange;
+}
+
+#um,
+#dois,
+#tres,
+#quatro,
+#cinco,
+#seis,
+#sete,
+#oito,
+#nove,
+#zero,
+#virgula {
+    background-color: rgb(235, 235, 235);
+}
